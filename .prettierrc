@@ -1,0 +1,23 @@
+{
+  "semi": true,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "jsxSingleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.json", "*.md"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.{ts,tsx,js,jsx}",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}
